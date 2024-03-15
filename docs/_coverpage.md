@@ -12,7 +12,7 @@
 
 
 [Github](https://github.com/alexeadem/qbo-docs/tree/main/docs) 
-[Get Started](?id=what-is-qbo) 
+[Get Started](?id=overview) 
 
 ![color](#fff)
 
