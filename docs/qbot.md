@@ -12,6 +12,8 @@ cd qbot
 
 ```bash
 ./qbot 
+```
+```output
 >>> ./qbot {istio | nginx | kubeconfig | nvidia | kubeflow}                 -- Demo to run
 ```
 

@@ -7,7 +7,7 @@ Enter QBO: the solution that unleashes the true potential of cloud computing. Wi
 
 QBO is tailored to the demands of resource-intensive environments, making it an optimal choice for AI and ML workloads. Its commitment to optimized performance ensures that your cloud infrastructure meets the unique requirements of advanced computing applications.
 
-> In the follow demo we'll do a sub-second deployment of a QBO instance, and we will be accesing the instance via SSH. 
+> In the following demo we'll do a sub-second deployment of a QBO instance, and we will be accesing the instance via SSH. 
 
 
 #### 1. Get `qbo` API version
@@ -74,7 +74,6 @@ Unlocking the power of cloud computing for anyone, anywhere.
 |Command             | Argument                            | Options  | Paraemeter | Admin | Example                                                         |    Description               | CLOUD | CE |
 |--------------------|-------------------------------------|----------|------------|-------|-----------------------------------------------------------------|------------------------------|-|-|
 | qbo add instance   |    char[64]                         | -i     |  char[64]    |  N    | qbo add instance `alex` -i `hub.docker.com/kindest/node:v1.27.2` | Add instance                |X| |
-|                    |                                     | -n     |  unsigned    |  N    |                                                                 | Number of instances          |X| |
 |                    |                                     | -d     |  char[128]   |  N    |                                                                 | Domain name                  |X| |
 | qbo add user       |    char[64] |          |                                    |  Y    | qbo add user `alex`                                             | Add user                     |X| | 
 |                    |                                     | --admin|              |  Y    | qbo add user --admin `alex`                                     | Add admin user               |X| |
