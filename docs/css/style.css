@@ -9,10 +9,16 @@
 }
 
 /* qbo */
-.sidebar-nav > ul > li > ul > li > ul {
+/* .sidebar-nav > ul > li > ul > li > ul {
     margin: 5px 0 5px 0px;
     padding-left: 15px;
     border-left: 1px solid rgb(41, 128, 185, 0.4);
+} */
+
+.sidebar-nav > ul > li > ul > ul {
+    margin: 5px 0 5px 0px;
+    padding-left: 15px;
+    border-left: 2px solid rgb(41, 128, 185, 0.4);
 }
 
 

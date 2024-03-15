@@ -1,5 +1,8 @@
-# Authentication
+# Cloud Edition
 
+Utilize QBO Kubernetes Engine (QKE) and QBO Container Engine (QCE) to efficiently create, deploy, and oversee resources in **QBO Cloud**. With QBO, experience high-performance computing while retaining cloud flexibility, granting direct access to GPUs, CPUs, and Disk resources. Execute cluster and instance operations swiftly, surpassing the speed of conventional cloud providers. Harness the capabilities of QCE and QKE effortlessly through the web interface, CLI, or QBO AsyncAPI, providing seamless accessibility to manage resources with utmost convenience.
+
+# Console Access
 QBO can authenticate access to the API using a web interface or a CLI interface. The web interface uses oauth2 Google authentication and the CLI uses either a temporary universally unique token (oauth2 authentication) or a service account. Both methods as described below
 
 > Note that when you login to the Web console @ https://console.cloud.qbo.io the web console is already configured and there is no further configuration needed for authentication. See [Configuration priority](#configuration-priority) for more info.
@@ -7,7 +10,7 @@ QBO can authenticate access to the API using a web interface or a CLI interface.
 
 > If you are using a Linux, Mac or Windows shell outside QBO's web console you can authenticate in two ways:
 
-## Temporary web token
+## Web Token
 > This token is generated upon successful authentication with your Google account
 
 

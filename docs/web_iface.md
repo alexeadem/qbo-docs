@@ -1,8 +1,8 @@
-# User interface
+# Web interface
 
 ## Navigation
 
-![QBO User Interface Navigation](img/navigation.png)
+![QBO Web Interface Navigation](img/navigation.png)
 
 <!-- ## Autocomplete
 ## Console -->
