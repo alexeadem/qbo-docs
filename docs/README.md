@@ -9,12 +9,12 @@ QBO offers **QBO Kubernetes Engine Community Edition (QKE CE)** at no cost, comp
 
 > Designed for AI and ML
 
-Delivering bare metal with the flexibility of the cloud, qbo Kubernetes excels in handling compute-intensive workloads demanding high performance and low latency, such as databases, AI/ML models, and various real-time applications. If your user experience and business success hinge on achieving high performance and low latency, leveraging bare metal for your Kubernetes clusters supported by qbo technology should be a strategic consideration.
+Delivering bare metal with the flexibility of the cloud, QBO excels in handling compute-intensive workloads demanding high performance and low latency, such as databases, AI/ML models, and various real-time applications. If your user experience and business success hinge on achieving high performance and low latency, leveraging bare metal for your Kubernetes clusters and compute instances supported by qbo technology should be a strategic consideration.
 
 
 > Pure containers
 
-QBO operates as an AsyncAPI that oversees Docker-in-Docker (DinD) Kubernetes clusters. In this unique setup, the traditional notion of a Kubernetes node, typically associated with a virtual or physical machine, is redefined as a Docker container within the QBO framework. Containerd runs within Docker in the QBO environment, facilitating the deployment of an entire Kubernetes infrastructure as a self-contained process directly on the hardware.
+QBO operates as an AsyncAPI that oversees Kubernetes-in-Docker (KinD) deployments in QBO Kubernetes Engine (QKE). In this unique setup, the traditional notion of a Kubernetes node, typically associated with a virtual or physical machine, is redefined as a Docker container within the QBO framework. Containerd runs within Docker in the QBO environment, facilitating the deployment of an entire Kubernetes infrastructure as a self-contained process directly on the hardware. Similarly, QBO AsyncAPI empowers Docker-in-Docker (DinD) deployments for compute instances, eliminating the necessity for conventional virtualization methods.
 
 > Metal Performance
 
