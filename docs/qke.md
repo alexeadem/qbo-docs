@@ -318,7 +318,9 @@ QBO Kubernetes Engine (QKE) offers unparalleled performance for any ML and AI wo
 
 ##### 2. Run qbot
 ```bash
-./qbot kubeflow v1.7.0
+./qbot kubeflow help
+Usage:
+./qbot kubeflow {v1.7.0 | v1.8.0}
 ```
 
 #### [1. Install Nvidia GPU Operator](ai_and_ml?id=nvidia-gpu-operator)
@@ -327,12 +329,17 @@ QBO Kubernetes Engine (QKE) offers unparalleled performance for any ML and AI wo
   
 ```bash
 cd $HOME
-git clone https://github.com/kubeflow/manifests.git"
-cd manifests/"
+git clone https://github.com/kubeflow/manifests.git
+cd manifests/
 ```
 
 ```bash
-git checkout v1.7.0"
+export KUBEFLOW_VERSION=v1.7.0
+```
+> `export KUBEFLOW_VERSION=v1.8.0` for version v1.8.0
+
+```bash
+git checkout $KUBEFLOW_VERSION
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 while ! ./kustomize build example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 10; done
 ```

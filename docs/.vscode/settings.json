@@ -1,0 +1,7 @@
+"[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true, // this must be true
+      "comments": false,
+      "strings": false
+    }
+  }

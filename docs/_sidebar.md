@@ -1,5 +1,5 @@
-&nbsp;&nbsp;&nbsp;&nbsp; [![Version](https://img.shields.io/badge/qbo-docs-blue)](https://github.com/alexeadem/qbo-docs/blob/main/LICENSE) 
-[![Tag](https://img.shields.io/badge/prod-4.3.2--49c0db762-black)](https://github.com/alexeadem/qbo-docs/tags)
+&nbsp;&nbsp;&nbsp;&nbsp; [![Version](https://img.shields.io/badge/qbo-docs-blue)](CHANGELOG.md) 
+[![Tag](img/version.svg)](CHANGELOG.md)
 
 - [Overview](README.md)
 - [Community Edition (CE)](ce.md)
