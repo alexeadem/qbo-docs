@@ -652,7 +652,7 @@ spec:
 QBO Kubernetes aligns with the Cloud Native Computing Foundation (CNCF) standards, ensuring adherence to best practices in cloud-native computing. This conformance establishes a solid foundation for scalability, interoperability, and performance, making qbo Kubernetes a reliable choice for AI workloads.
 
 
-[![CNCF Certified](img/certified-kubernetes-color.svg)](https://landscape.cncf.io/card-mode?category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=category&selected=qbo)
+[![CNCF Certified](img/certified-kubernetes-color.svg)](https://www.cncf.io/training/certification/software-conformance/)
 
 
 ## Sonobuoy
