@@ -158,6 +158,8 @@ NVIDIA GPU Operator plays a crucial role in enabling organizations to harness th
 
 QBO Kubernetes Engine (QKE) offers unparalleled performance for any ML and AI workloads, bypassing the constraints of traditional virtual machines. By deploying Kubernetes components using Docker-in-Docker technology, it grants direct access to hardware resources. This approach delivers the agility of the cloud while maintaining optimal performance.
 
+?> [![QKE + NVIDIA GPU Operator + Kubernetes-in-Docker + Cgroups v2 - Part 1](https://i.ytimg.com/vi/nl7sWLsuDOI/hqdefault.jpg)](https://youtu.be/nl7sWLsuDOI)
+
 #### Prerequsites
 
 <!-- * [CLI](cli.md) Configuration  -->
@@ -292,7 +294,10 @@ Kubeflow plays a crucial role in democratizing AI by providing a unified platfor
 
 QBO Kubernetes Engine (QKE) offers unparalleled performance for any ML and AI workloads, bypassing the constraints of traditional virtual machines. By deploying Kubernetes components using Docker-in-Docker technology, it grants direct access to hardware resources. This approach delivers the agility of the cloud while maintaining optimal performance.
 
+?> [![QKE + Kubeflow + NVIDIA GPU Operator + Kubernetes-in-Docker + Cgroups v2 - Part 2](https://i.ytimg.com/vi/O9xD3dLukf8/hqdefault.jpg)](https://youtu.be/nl7sWLsuDOI?si=yS2XJ47zwharaN2x)
+
 > The following instructions use the upstream Kubeflow project with `platform-agnostic-multi-user-pns` pipelines.
+
 
 #### Prerequisites
 ##### Kubeflow v1.7.0 with Nvidia GPU support
