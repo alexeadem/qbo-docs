@@ -78,7 +78,7 @@ cd qbo-ce
 
 
 ```bash
-qbo get user -c alex@qbo.io | jq .users[]?.cli > ~/.qbo/cli.json
+qbo get user -c alex@qbo.io | jq .users[]?.cli.conf > ~/.qbo/cli.json
 ```
 > `cli.json` is the file containing the service account used by the CLI to authenticate by the API. 
 
