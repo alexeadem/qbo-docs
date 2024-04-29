@@ -92,6 +92,11 @@ const plugin = (hook, vm) => {
           let diver = document.getElementById("cover_diver");
           if(diver != null)
             diver.src = "img/diver_dark.svg";
+
+          let logo = document.querySelectorAll(".cover_logo");
+          logo.forEach(function(element) {
+            element.src = "img/qbo_250x150.svg";
+          });
           
       } else if ( theme == "dark") {
         for (var [key, value] of Object.entries(themeConfig.dark))
@@ -99,6 +104,11 @@ const plugin = (hook, vm) => {
           let diver = document.getElementById("cover_diver");
           if(diver != null)
             diver.src = "img/diver_light.svg";
+
+          let logo = document.querySelectorAll(".cover_logo");
+          logo.forEach(function(element) {
+            element.src = "img/qbo_250x150_light.svg";
+          });
       }
   
       document.documentElement.style.setProperty('color-scheme', theme)
@@ -135,6 +145,11 @@ const plugin = (hook, vm) => {
         if(diver != null)
          diver.src = "img/diver_light.svg";
 
+        let logo = document.querySelectorAll(".cover_logo");
+        logo.forEach(function(element) {
+          element.src = "img/qbo_250x150_light.svg";
+        });
+
       }
       else {
         console.log("light");
@@ -143,6 +158,11 @@ const plugin = (hook, vm) => {
         let diver = document.getElementById("cover_diver");
         if(diver != null)
           diver.src = "img/diver_dark.svg";
+
+        let logo = document.querySelectorAll(".cover_logo");
+        logo.forEach(function(element) {
+          element.src = "img/qbo_250x150.svg";
+        });
 
       }
 
@@ -157,6 +177,11 @@ const plugin = (hook, vm) => {
           let diver = document.getElementById("cover_diver");
           if(diver != null)
             diver.src = "img/diver_light.svg";
+
+          let logo = document.querySelectorAll(".cover_logo");
+          logo.forEach(function(element) {
+            element.src = "img/qbo_250x150_light.svg";
+          });
         }
         else {
           themeConfig.defaultTheme = 'light';
@@ -165,6 +190,11 @@ const plugin = (hook, vm) => {
           let diver = document.getElementById("cover_diver");
           if(diver != null)
             diver.src = "img/diver_dark.svg";
+
+          let logo = document.querySelectorAll(".cover_logo");
+          logo.forEach(function(element) {
+            element.src = "img/qbo_250x150.svg";
+          });
 
         }
 
